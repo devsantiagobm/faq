@@ -1,0 +1,7 @@
+@use '../component/component' as *;
+
+
+@media screen and (max-width: 812px){
+    @include content-mobile();
+    @include img-mobile();
+}

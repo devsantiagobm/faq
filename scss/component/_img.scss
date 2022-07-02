@@ -1,0 +1,31 @@
+@use '../assets/assets' as *;
+
+
+.main{
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    max-width: 17%;
+    top: 45%;
+    left: -6%;
+    z-index: 10;
+    animation: animacionCaja 3s linear infinite both;
+
+    @keyframes animacionCaja{
+        0%, 100%{
+            transform: translateY(-8%);
+        }
+        50%{
+            transform: translateY(0%);
+        }
+    }
+    
+}
+
+@mixin img-mobile(){
+    .img{
+        display: none;
+    }
+}

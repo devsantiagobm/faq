@@ -1,0 +1,11 @@
+@use '../assets/assets' as *;
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient($soft-violet, $soft-blue);
+    font-weight: $regular;
+}
